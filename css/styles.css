@@ -17,7 +17,17 @@
 
 /*HEADER*/
 
-
+#header {
+    grid-area: header;
+    border-bottom: solid 0.1875em black;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .header__logo {
     display: flex;
